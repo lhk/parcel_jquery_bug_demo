@@ -1,7 +1,7 @@
-import $ from "jquery";
-(<any>window).jQuery = $;
+//import $ from "jquery";
+//(<any>window).jQuery = $;
 
-import "bootstrap";
+//import "bootstrap";
 
 $(function () {
   $('[data-toggle="popover"]').popover();
