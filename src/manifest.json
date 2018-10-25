@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "pc",
+  "version": "0.0.1",
+  "description": "none",
+  "author": "",
+  "content_security_policy":"script-src 'self'; object-src 'self'",
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": [
+         "./content/index.ts"]
+    }
+  ]
+}
