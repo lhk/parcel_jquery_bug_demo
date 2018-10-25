@@ -1,5 +1,5 @@
-import $ from "jquery";
-(<any>window).jQuery = $;
+import jquery from "jquery";
+(<any>window).$ = (<any>window).jQuery = jquery;
 import "bootstrap";
 
 $(function () {
