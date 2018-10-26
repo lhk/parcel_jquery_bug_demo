@@ -9,9 +9,8 @@
     {
         "matches": ["<all_urls>"],
         "js": [
-        "./assets/jquery/dist/jquery.min.js",
-        "./assets/bootstrap/dist/js/bootstrap.min.js",
-        "./content/index.ts"]
+          "./content/index.ts"
+        ]
     }
   ]
 }
